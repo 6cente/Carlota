@@ -34,7 +34,7 @@ function showMessage(response) {
 
     // Update text content, show message, and change image source to "dance.gif"
     const yesMessage = document.getElementById("question");
-    yesMessage.textContent = "Depois diz-me a que horas podes pelo insta ou por msg 😘😘";
+    yesMessage.textContent = "Depois diz-me a que horas podes pelo insta 😘😘";
     yesMessage.style.display = "block";
     yesMessage.style.fontStyle = "normal";
     document.getElementsByClassName("image")[0].src = "images/dance.gif";
